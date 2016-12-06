@@ -53,3 +53,9 @@ footer.page-footer {
 .mapMargin {
     margin-bottom: 16px;
 }
+
+.game {
+    margin-left: 85px;
+    height: 600px;
+    width: 800px;
+}

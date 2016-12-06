@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
     <meta charset="UTF-8">
-    <title>Bug Attack</title>
-</head>
-<body>
+    <title>Data Bug Attack</title>
 
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="public/css/main.css" media="screen,projection">
+</head>
+<body class="grey darken-4">
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="left">
+                    <li class="active waves-effect waves-light"><a href="index.html">Inicio</a></li>
+                    <li class="waves-effect waves-light"><a href="juego.html" class="yellow-text">Juego</a></li>
+                    <li class="waves-effect waves-light"><a href="instrucciones.html">Como Jugar</a></li>
+                    <li class="waves-effect waves-light"> <a href="historia.html">Historia</a></li>
+                    <li class="waves-effect waves-light"><a href="galeria.html">Galeria</a></li>
+                    <li class="waves-effect waves-light"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container white-text">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="thin center-align">DATA BUG ATTACK</h1>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row game">
+                <div id="game" class="game center"></div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Hecho con Materialize</h5>
+                    <p class="grey-text text-lighten-4">
+                        Materialize es un framework basado en material design. Diseñado para ser
+                        responsivo y agradable a la vista ;)</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="http://www.uv.mx" target="_blank">
+                            Universidad Veracruzana</a></li>
+                        <li><a class="grey-text text-lighten-3" href="http://www.uv.mx/fei" target="_blank">
+                            Facultad de Estadistica a Informatica</a></li>
+                        <li><a class="grey-text text-lighten-3" href="http://materializecss.com/" target="_blank">
+                            Materialize</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016 Copyright
+                <a class="grey-text text-lighten-4 right" href="https://twitter.com/osocron" target="_blank">Web Master</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+    <script src="public/js/materialize.min.js"></script>
+    <script src="public/js/main.js"></script>
+    <script>
+        flashembed("game", "public/flash/videojuego.swf");
+    </script>
 </body>
 </html>
